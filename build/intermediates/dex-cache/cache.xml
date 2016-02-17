@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/appsriv-02/bottomzup/BottomzUp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3c729e6d76a36c5dc27e6a4c4009296f49eaa88a">
+        <dex dex="/home/appsriv-02/bottomzup/BottomzUp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-drive-8.1.0_2084b59edcfdf6cfc3d9bd7ad2bf770bb828c3b1.jar" />
+    </item>
+    <item
+        jar="/home/appsriv-02/bottomzup/BottomzUp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="993834cb17d07d51b92db89d2c330243592ebf77">
+        <dex dex="/home/appsriv-02/bottomzup/BottomzUp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-games-8.1.0_32662063e473eb78d26535f3dd14d522f7c2ecf9.jar" />
+    </item>
+    <item
+        jar="/home/appsriv-02/bottomzup/BottomzUp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="82825756edeeb3b56b15e73b2edd56e93da5a444">
+        <dex dex="/home/appsriv-02/bottomzup/BottomzUp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-8.1.0_f5e02003fda6f112d8486ae53873c7c0c6b95ce3.jar" />
+    </item>
+    <item
+        jar="/home/appsriv-02/bottomzup/BottomzUp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3178362320bcf51228835b60ff978efadfd1f783">
+        <dex dex="/home/appsriv-02/bottomzup/BottomzUp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-cast-8.1.0_c5eeabc889f1bccb9bfeb90bba51a4a4645daed2.jar" />
+    </item>
+    <item
+        jar="/home/appsriv-02/bottomzup/BottomzUp/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="dcf8c83c3dead00a6c4fe313e95f7aaca20dc641">
+        <dex dex="/home/appsriv-02/bottomzup/BottomzUp/app/build/intermediates/pre-dexed/debug/com.android.support-mediarouter-v7-22.2.0_2f57854a4b81127b4e8be3f53843c21dd0890dfe.jar" />
+    </item>
+    <item
+        jar="/home/appsriv-02/bottomzup/BottomzUp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="041d93cf0533591c29d1d7263b2fa114dbfb20bd">
+        <dex dex="/home/appsriv-02/bottomzup/BottomzUp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-nearby-8.1.0_11ac30d36feca9ca3a8eabebf7f39a1ef0baeb74.jar" />
+    </item>
+    <item
+        jar="/home/appsriv-02/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.1/support-annotations-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="/home/appsriv-02/bottomzup/BottomzUp/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.1_9f8ca69abbd04a48c38d19e84d774ffa5ae8f80c.jar" />
+    </item>
+    <item
+        jar="/home/appsriv-02/bottomzup/BottomzUp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d93480da1d303122ee67dc3bc23e6297bdef9951">
+        <dex dex="/home/appsriv-02/bottomzup/BottomzUp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-panorama-8.1.0_3f239af498f0b5ed5e2fb5b39e0e952e4cba63f2.jar" />
+    </item>
+    <item
+        jar="/home/appsriv-02/bottomzup/BottomzUp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9cf8c0ef60847621c7ad00b4f78dbfc9daba4af2">
+        <dex dex="/home/appsriv-02/bottomzup/BottomzUp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-fitness-8.1.0_f689f76477990108021e4b6b99a3bba595aec58b.jar" />
+    </item>
+    <item
+        jar="/home/appsriv-02/bottomzup/BottomzUp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="17449c47df35c754b257532052f1270c444f7993">
+        <dex dex="/home/appsriv-02/bottomzup/BottomzUp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-vision-8.1.0_d84902576736c1f8ee83c5b02611eda5fd5f9381.jar" />
+    </item>
+    <item
+        jar="/home/appsriv-02/bottomzup/BottomzUp/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/crashlytics/2.5.5/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="611605b6b640c1558f9bdea41de8ff837ab68ca8">
+        <dex dex="/home/appsriv-02/bottomzup/BottomzUp/app/build/intermediates/pre-dexed/debug/com.crashlytics.sdk.android-crashlytics-2.5.5_05796fcb6c60471e369020e14f978dd55371600a.jar" />
+    </item>
+    <item
+        jar="/home/appsriv-02/bottomzup/BottomzUp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="325788a04b436a0bccbc5b4c54cf0f12ebdcbd2d">
+        <dex dex="/home/appsriv-02/bottomzup/BottomzUp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-wallet-8.1.0_3c0b48a551d52c38fcfddeca567c8d8c2756c471.jar" />
+    </item>
+    <item
+        jar="/home/appsriv-02/bottomzup/BottomzUp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d61920aba361832a9545a43fa8c9453eb02f18f7">
+        <dex dex="/home/appsriv-02/bottomzup/BottomzUp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-plus-8.1.0_2d50d5fd1def6b313fbe33eef95406de82311b73.jar" />
+    </item>
+    <item
+        jar="/home/appsriv-02/bottomzup/BottomzUp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b92002cb2f0e11a226ac5bac6dff1dc2a9d0b774">
+        <dex dex="/home/appsriv-02/bottomzup/BottomzUp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-appinvite-8.1.0_535afa1cf1223878700c674ba3a32108cbd00e6b.jar" />
+    </item>
+    <item
+        jar="/home/appsriv-02/bottomzup/BottomzUp/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a78bfd2ec508b123ee7c03f4006ba7996ef9a8dc">
+        <dex dex="/home/appsriv-02/bottomzup/BottomzUp/app/build/intermediates/pre-dexed/debug/com.facebook.android-facebook-android-sdk-4.1.0_94f955b52c86c05ac9c106881b8c309f06726ccd.jar" />
+    </item>
+    <item
+        jar="/home/appsriv-02/bottomzup/BottomzUp/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/answers/1.3.6/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9af3b9b8114e685291aa00e6572b0a9131244956">
+        <dex dex="/home/appsriv-02/bottomzup/BottomzUp/app/build/intermediates/pre-dexed/debug/com.crashlytics.sdk.android-answers-1.3.6_20f16df1dca8686459c98be5f6f78dd8a1e2b935.jar" />
+    </item>
+    <item
+        jar="/home/appsriv-02/bottomzup/BottomzUp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3b05c18f60969ecc2ba49c0409c4b96be2d9cb0c">
+        <dex dex="/home/appsriv-02/bottomzup/BottomzUp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-safetynet-8.1.0_fc97d427dbcc207ae4a34a32c70ec0f83e8c6cac.jar" />
+    </item>
+    <item
+        jar="/home/appsriv-02/bottomzup/BottomzUp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="482de223655d06253cc6a4955d653f8994169500">
+        <dex dex="/home/appsriv-02/bottomzup/BottomzUp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-measurement-8.1.0_c8fab87970dfac251576fd14e136bca602c5c21f.jar" />
+    </item>
+    <item
+        jar="/home/appsriv-02/bottomzup/BottomzUp/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/beta/1.1.4/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ad5bb101ced4d3939225c9b57e5a3d81547c1fbb">
+        <dex dex="/home/appsriv-02/bottomzup/BottomzUp/app/build/intermediates/pre-dexed/debug/com.crashlytics.sdk.android-beta-1.1.4_8fd0c0a242d23e7443d08d28262d25e4ad339d00.jar" />
+    </item>
+    <item
+        jar="/home/appsriv-02/bottomzup/BottomzUp/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/crashlytics-core/2.3.8/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c9ef45dcbd082cd63aac09a5e2cd443adb5df837">
+        <dex dex="/home/appsriv-02/bottomzup/BottomzUp/app/build/intermediates/pre-dexed/debug/com.crashlytics.sdk.android-crashlytics-core-2.3.8_2f301ac50c68313faa45f834189479871cad9211.jar" />
+    </item>
+    <item
+        jar="/home/appsriv-02/bottomzup/BottomzUp/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="/home/appsriv-02/bottomzup/BottomzUp/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-22.2.1_49883853e5871dde7cc0e622f027e7695b8233ae.jar" />
+    </item>
+    <item
+        jar="/home/appsriv-02/bottomzup/BottomzUp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3aed37c38c56679602255dd72ef356da5d327cda">
+        <dex dex="/home/appsriv-02/bottomzup/BottomzUp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-location-8.1.0_2846087ec174b84f7f018bf6f65db6996995f7e3.jar" />
+    </item>
+    <item
+        jar="/home/appsriv-02/bottomzup/BottomzUp/app/build/intermediates/exploded-aar/io.fabric.sdk.android/fabric/1.3.10/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a5db9a2dd46d84285ef737f65030b74b6e8ee2a4">
+        <dex dex="/home/appsriv-02/bottomzup/BottomzUp/app/build/intermediates/pre-dexed/debug/io.fabric.sdk.android-fabric-1.3.10_da88a70d45b78691c6fb847bbffff400efcda5e5.jar" />
+    </item>
+    <item
+        jar="/home/appsriv-02/bottomzup/BottomzUp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="97f3b099801a9ad9d70e835b9125273e986eb68d">
+        <dex dex="/home/appsriv-02/bottomzup/BottomzUp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-wearable-8.1.0_c5f52893640f8f0296aba388bc8c41016228b484.jar" />
+    </item>
+    <item
+        jar="/home/appsriv-02/bottomzup/BottomzUp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="997773777cf3904c11d6764fe3b7668538220e49">
+        <dex dex="/home/appsriv-02/bottomzup/BottomzUp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-ads-8.1.0_58c07a8401e06868b5fa28aa9749301f1b66da90.jar" />
+    </item>
+    <item
+        jar="/home/appsriv-02/bottomzup/BottomzUp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="/home/appsriv-02/bottomzup/BottomzUp/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-22.2.1_750e6804f088907db44ab2f5a822d651ad8a9a24.jar" />
+    </item>
+    <item
+        jar="/home/appsriv-02/bottomzup/BottomzUp/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0632f06970823b7e3436f649bfa65b47035c91d0">
+        <dex dex="/home/appsriv-02/bottomzup/BottomzUp/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0_61db7e35fb3fd5ee02599ceec99906506e89bd9e.jar" />
+    </item>
+    <item
+        jar="/home/appsriv-02/bottomzup/BottomzUp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d294caf562c4c678b2ef351662a0ca6f1a4d06c0">
+        <dex dex="/home/appsriv-02/bottomzup/BottomzUp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-identity-8.1.0_a045e23fe7f9ca21fcdacca4e11a84d2385b7e37.jar" />
+    </item>
+    <item
+        jar="/home/appsriv-02/bottomzup/BottomzUp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="95758a2905669affbffc5ddd262921d375674fad">
+        <dex dex="/home/appsriv-02/bottomzup/BottomzUp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-analytics-8.1.0_de15bce7fb1a1937a6ec7ed043e5de841acfce4e.jar" />
+    </item>
+    <item
+        jar="/home/appsriv-02/bottomzup/BottomzUp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="2a7e47da654546f9457deb6132364f1bf33a1857">
+        <dex dex="/home/appsriv-02/bottomzup/BottomzUp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-maps-8.1.0_27d811afc564d9f3d3f7b271bfc5c3125d857f48.jar" />
+    </item>
+    <item
+        jar="/home/appsriv-02/bottomzup/BottomzUp/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/libs/internal_impl-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="/home/appsriv-02/bottomzup/BottomzUp/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.1_f2214a37476c19fbdf5de3f1197c0ea4eae974a3.jar" />
+    </item>
+    <item
+        jar="/home/appsriv-02/bottomzup/BottomzUp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4477ea44f5ec5ad064022a22691732d7638ff197">
+        <dex dex="/home/appsriv-02/bottomzup/BottomzUp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-appindexing-8.1.0_f62ca1b701b7d35fdb7daed7ed798f84d1f58769.jar" />
+    </item>
+    <item
+        jar="/home/appsriv-02/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.2.0/6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd/bolts-android-1.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd">
+        <dex dex="/home/appsriv-02/bottomzup/BottomzUp/app/build/intermediates/pre-dexed/debug/bolts-android-1.2.0_7c230c9d92d4b6bf8118c4e0b6b5dec73b2ee05f.jar" />
+    </item>
+    <item
+        jar="/home/appsriv-02/bottomzup/BottomzUp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="dcb5b75baf05d92e61d5706737200ee55949f97b">
+        <dex dex="/home/appsriv-02/bottomzup/BottomzUp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-gcm-8.1.0_7839ebc72a67162a6144f0a0cd179e31d5a328d1.jar" />
+    </item>
+    <item
+        jar="/home/appsriv-02/bottomzup/BottomzUp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d0dda274b703dd9c5bb056867649d22b4171ae7d">
+        <dex dex="/home/appsriv-02/bottomzup/BottomzUp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-8.1.0_b6c1311fd8e8fdc307ca0ee1bad23776015c01c5.jar" />
+    </item>
+
+</items>

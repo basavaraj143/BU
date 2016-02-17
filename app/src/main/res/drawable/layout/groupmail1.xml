@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#fff">
+
+
+   <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:baselineAligned="false"
+        android:weightSum="100">
+
+
+
+       <LinearLayout
+           android:layout_width="0dp"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:layout_weight="50"
+           android:layout_marginTop="20dp"
+           android:id="@+id/grpnamelayout"
+           android:layout_marginStart="10dp"
+           android:layout_marginEnd="10dp"
+           android:visibility="visible"
+           android:weightSum="100">
+           <TextView
+               android:id="@+id/group_name"
+               android:layout_width="wrap_content"
+               android:layout_height="25dp"
+               android:textSize="15sp"
+               android:paddingTop="3dp"
+               android:layout_marginStart="5dp"
+               android:textColor="#000"
+               android:textStyle="bold"
+               android:layout_weight="100"/>
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:id="@+id/hh"
+               android:weightSum="100">
+
+               <TextView
+                   android:layout_width="0dp"
+                   android:layout_height="fill_parent"
+                   android:layout_weight="100"
+                   android:layout_marginTop="02dp"
+                   android:textSize="9sp"
+                   android:textColor="#000"
+                   android:id="@+id/time"
+                   android:paddingStart="4dp"
+                   android:paddingEnd="4dp"
+                   android:background="@drawable/background"
+                   android:text="Happy Hours-11am-4pm"
+                   />
+
+
+           </LinearLayout>
+
+           <ImageView
+               android:id="@+id/discount"
+               android:layout_width="100dp"
+               android:layout_height="30dp"
+               android:src="@drawable/newdiscount"/>
+       </LinearLayout>
+
+
+
+                <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="25"
+                        android:id="@+id/minprice"
+                    >
+
+                        <TextView
+                            android:id="@+id/botte"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="17dp"
+                            android:gravity="center"
+                            android:textSize="14sp"
+                            android:textColor="#000"/>
+
+                    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="25"
+        android:id="@+id/locationlayout">
+        <TextView
+            android:id="@+id/dist"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp"
+            android:paddingStart="7dp"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textColor="#000"
+            />
+    </LinearLayout>
+
+      <!-- <LinearLayout
+           android:layout_width="0dp"
+           android:layout_height="wrap_content"
+           android:layout_weight="06"
+           android:gravity="top"
+           android:id="@+id/directionlayout"
+           android:weightSum="1">
+
+           <ImageButton
+               android:layout_width="wrap_content"
+               android:layout_height="90dp"
+               android:id="@+id/direction"
+               android:background = "@null"
+               android:adjustViewBounds="true"
+               android:scaleType="fitCenter"
+               android:layout_gravity="top"
+               android:paddingBottom="38dp"
+               android:src="@drawable/orangeloc"
+
+               android:layout_weight="2.19" />
+       </LinearLayout>-->
+        
+</LinearLayout>
+
+</LinearLayout>

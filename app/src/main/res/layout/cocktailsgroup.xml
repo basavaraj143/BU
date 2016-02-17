@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:clipChildren="false"
+
+    >
+
+  <!--  <ImageView
+        android:id="@+id/offerribben"
+        android:layout_gravity="top|left"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+       />-->
+    <ImageView
+        android:id="@+id/arrowdown"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/arrowdown"/>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:baselineAligned="false"
+        android:orientation="vertical"
+        >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:baselineAligned="false"
+        android:weightSum="100"
+        android:orientation="vertical"
+        android:background="#f9e5bd"
+        android:layout_weight="100"
+       >
+
+       <!-- <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="-5dp"
+            android:id="@+id/relative_layout">
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_gravity="top|left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/offerribben" />
+
+            <ImageView
+                android:id="@+id/arrowdown"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="3dp"
+                android:layout_marginLeft="3dp"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="10dp"
+                android:layout_below="@+id/imageView5"
+                android:src="@drawable/arrowdown"/>
+
+        </RelativeLayout>-->
+        <!--  <ImageView
+              android:id="@+id/imageView1"
+              android:layout_gravity="top|left"
+              android:layout_width="wrap_content"
+              android:layout_weight="5"
+              android:layout_height="wrap_content"
+              android:src="@drawable/offerribben" />
+  -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:baselineAligned="false"
+        android:weightSum="100"
+         android:background="#f9e5bd"
+        android:id="@+id/toplayout"
+        android:orientation="horizontal">
+
+        <!--<RelativeLayout
+            android:layout_width="20dp"
+            android:layout_height="100dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:id="@+id/offerribben"
+                android:layout_height="match_parent"
+                android:background="@drawable/offerribben"/>
+
+            <ImageView
+                android:id="@+id/arrowdown"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="3dp"
+                android:layout_marginLeft="3dp"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="3dp"
+                android:layout_below="@+id/offerribben"
+                android:src="@drawable/arrowdown"/>
+
+
+        </RelativeLayout>-->
+      <!--  <ImageView
+            android:id="@+id/arrowdown"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginLeft="3dp"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="3dp"
+            android:src="@drawable/arrowdown"/>-->
+        <!--<FrameLayout
+            android:layout_width="25dp"
+            android:layout_weight="5"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="-5dp"
+            android:id="@+id/frame">
+
+
+            <ImageView
+                android:id="@+id/offerribben"
+                android:layout_gravity="top|left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitCenter"
+                android:src="@drawable/offerribben" />
+
+            <ImageView
+                android:id="@+id/arrowdown"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="3dp"
+                android:layout_marginLeft="3dp"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="3dp"
+                android:src="@drawable/arrowdown"/>
+
+
+
+        </FrameLayout>-->
+    <!--  <ImageView
+              android:id="@+id/imageView1"
+              android:layout_gravity="top|left"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:src="@drawable/offerribbon" />-->
+        <!--   -->
+        <!--<LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="top"
+            android:layout_weight="5"
+            android:weightSum="10"
+
+            >
+             <ImageView
+                         android:id="@+id/imageView1"
+                         android:layout_gravity="top|left"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:src="@drawable/offerribbon"
+                 android:layout_weight="5"/>
+
+            <ImageView
+                android:id="@+id/arrowdown"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_weight="5"
+                android:layout_marginStart="3dp"
+                android:layout_marginLeft="3dp"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/arrowdown"/>
+
+        </LinrLayout>-->
+
+           <LinearLayout
+           android:layout_width="0dp"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:layout_weight="49"
+           android:id="@+id/hh"
+           android:background="#f9e5bd"
+           android:layout_marginLeft="35dp"
+           android:paddingTop="7dp"
+           android:visibility="visible"
+           android:weightSum="100">
+
+
+
+        <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/grpnamelayout"
+    android:orientation="vertical"
+
+    android:weightSum="100">
+   <!-- <ImageView
+        android:layout_width="0dp"
+        android:id="@+id/bmug"
+        android:layout_height="wrap_content"
+       android:layout_weight="05"
+        android:background="@drawable/beermugiconz"/>-->
+            <TextView
+                android:id="@+id/group_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="3dp"
+                android:singleLine="true"
+                android:textColor="#000"
+                />
+            <TextView
+                android:id="@+id/place_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="3dp"
+                android:text="Vikaspuri"
+                android:textColor="#BFAD88"
+                android:singleLine="true"
+
+                />
+   <LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:id="@+id/timalayout"
+       android:layout_marginEnd="2dp"
+       android:layout_marginLeft="-30dp"
+       android:layout_marginRight="2dp"
+       android:layout_marginBottom="10dp">
+
+       <!--<ImageView
+           android:id="@+id/arrowdown"
+           android:layout_width="20dp"
+           android:layout_height="20dp"
+           android:layout_marginStart="3dp"
+           android:layout_marginLeft="3dp"
+           android:layout_gravity="bottom"
+           android:layout_marginBottom="10dp"
+           android:layout_marginRight="3dp"
+           android:src="@drawable/arrowdown"/>-->
+     <!--  <ImageView
+       android:id="@+id/bmug"
+       android:layout_width="20dp"
+       android:layout_height="20dp"
+       android:layout_weight="05"
+       android:background="@drawable/yellobeermug"/>-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="02dp"
+        android:textSize="10sp"
+        android:textColor="#C4614A"
+        android:id="@+id/timetext"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingRight="4dp"
+        android:layout_marginBottom="1dp"
+        android:text="Happy Hours"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="45"
+        android:layout_marginTop="02dp"
+        android:textSize="10sp"
+        android:gravity="start"
+        android:layout_gravity="center"
+        android:id="@+id/time"
+        android:textColor="#C4614A"
+        android:layout_marginBottom="1dp"
+        android:text="-11am-4pm"/>
+
+   </LinearLayout>
+
+     </LinearLayout>
+
+             <!--  <ImageView
+                   android:id="@+id/discount"
+                   android:layout_width="100dp"
+                   android:layout_height="30dp"
+                   android:layout_marginStart="3dp"
+                   android:layout_marginLeft="3dp"
+                   android:src="@drawable/newdiscount"/>-->
+
+
+       </LinearLayout>
+
+
+
+                <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="17"
+                        android:background="#f9e5bd"
+                        android:id="@+id/minpricelayout"
+                        android:clickable="true"
+                    >
+                        <TextView
+                            android:id="@+id/minPrice"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+
+                            android:layout_marginTop="25dp"
+                            />
+                    </LinearLayout>
+
+                    <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="17"
+                                    android:id="@+id/bottlelayout"
+                                    android:background="#f9e5bd"
+                                    android:clickable="true">
+
+                                    <TextView
+                                        android:id="@+id/name"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center"
+                                        android:layout_marginTop="25dp" />
+                    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="17"
+        android:background="#f9e5bd"
+        android:clickable="true"
+        android:id="@+id/locationlayout">
+        <TextView
+            android:id="@+id/dist"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:textAlignment="center"
+            />
+        </LinearLayout>
+       <!--<LinearLayout
+           android:layout_width="0dp"
+           android:layout_height="wrap_content"
+           android:layout_weight="06"
+           android:gravity="center"
+           android:id="@+id/directionlayout"
+           android:weightSum="1">
+
+           <ImageButton
+               android:layout_width="wrap_content"
+               android:layout_height="80dp"
+               android:id="@+id/direction"
+               android:background = "@null"
+               android:adjustViewBounds="true"
+               android:scaleType="fitCenter"
+               android:paddingBottom="38dp"
+               android:src="@drawable/orangeloc"/>
+       </LinearLayout>-->
+      <!-- <View
+           android:layout_width="1dp"
+           android:layout_height="fill_parent"
+           android:background="#000000"
+           android:layout_alignParentLeft="true"
+           android:id="@+id/view1"
+         />-->
+
+         </LinearLayout>
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/shadow"
+            android:background="@drawable/shadow1"/>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="3dp"
+            android:paddingTop="20dp"
+            android:background="@drawable/belowline"
+            android:id="@+id/belowline"
+            />
+
+    </LinearLayout>
+
+
+    </RelativeLayout>

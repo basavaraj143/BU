@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:id="@+id/popup"
+
+    android:layout_height="fill_parent">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="100"
+        android:id="@+id/top"
+        android:background="@drawable/alert_background"
+        android:orientation="horizontal"
+        >
+
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="80"
+            android:background="#f9e5bd"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:id="@+id/phoneone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginLeft="10dp"
+                android:text="0123456718"
+                android:clickable="true"
+                android:layout_gravity="start"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="10dp"
+                android:textColor="#000"/>
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="3dp"
+                android:paddingTop="20dp"
+                android:background="@drawable/belowline"
+                android:id="@+id/belowline"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/phonetwo"
+                android:layout_marginBottom="5dp"
+                android:gravity="center"
+                android:text="9731276143"
+                android:clickable="true"
+                android:layout_marginTop="10dp"
+                android:textColor="#000"/>
+
+            </LinearLayout>
+
+        <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="20"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+        android:background="#f9e5bd"
+        android:orientation="vertical"
+        >
+           <!-- <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#f9e5bd"
+                />-->
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:id="@+id/close"
+                android:src="@drawable/close_press"/>
+
+        </LinearLayout>
+
+
+        </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_bottomzup" default="compile.module.bottomzup">
+  <dirname property="module.bottomzup.basedir" file="${ant.file.module_bottomzup}"/>
+  
+  <property name="module.jdk.home.bottomzup" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.bottomzup" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.bottomzup" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.bottomzup" value="-encoding UTF-8 -source 1.7 ${compiler.args}"/>
+  
+  <property name="bottomzup.output.dir" value="${module.bottomzup.basedir}/build/classes/production/BottomzUp"/>
+  <property name="bottomzup.testoutput.dir" value="${module.bottomzup.basedir}/build/classes/test/BottomzUp"/>
+  
+  <path id="bottomzup.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="bottomzup.module.production.classpath">
+    <path refid="${module.jdk.classpath.bottomzup}"/>
+  </path>
+  
+  <path id="bottomzup.runtime.production.module.classpath">
+    <pathelement location="${bottomzup.output.dir}"/>
+  </path>
+  
+  <path id="bottomzup.module.classpath">
+    <path refid="${module.jdk.classpath.bottomzup}"/>
+    <pathelement location="${bottomzup.output.dir}"/>
+  </path>
+  
+  <path id="bottomzup.runtime.module.classpath">
+    <pathelement location="${bottomzup.testoutput.dir}"/>
+    <pathelement location="${bottomzup.output.dir}"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.bottomzup">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.bottomzup">
+    <patternset refid="excluded.from.module.bottomzup"/>
+  </patternset>
+  
+  
+  <target name="compile.module.bottomzup" depends="compile.module.bottomzup.production,compile.module.bottomzup.tests" description="Compile module BottomzUp"/>
+  
+  <target name="compile.module.bottomzup.production" depends="register.custom.compilers" description="Compile module BottomzUp; production classes"/>
+  
+  <target name="compile.module.bottomzup.tests" depends="register.custom.compilers,compile.module.bottomzup.production" description="compile module BottomzUp; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.bottomzup" description="cleanup module">
+    <delete dir="${bottomzup.output.dir}"/>
+    <delete dir="${bottomzup.testoutput.dir}"/>
+  </target>
+</project>

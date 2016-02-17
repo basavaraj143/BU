@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="100"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="10"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/close" />
+        <TextView
+            android:id="@+id/cityName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Delhi"
+            android:clickable="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:textColor="#000"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/arrowdown"
+            android:layout_gravity="start"
+           />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#000"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="10"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/serach"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/searchbuttonicon"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="5dp"
+           />
+      <!--  <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:textCursorDrawable="@drawable/blackpipe"
+            android:layout_marginRight="3dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="5dp"
+            android:hint="Liquor"
+            android:layout_weight="3"/>
+-->
+        <cityautocomplete.LiquorAutocompleteTextview
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/brandAutocomplete"
+            android:textColor="#000"
+            android:singleLine="true"
+            android:textSize="13sp"
+            android:hint="@string/whatdouwant"
+            android:imeOptions="actionDone"
+            android:textFilterEnabled="true"
+            android:layout_gravity="center"
+            android:paddingLeft="5dp"
+            android:paddingStart="5dp"
+            android:background="#fff"
+
+            android:dropDownListViewStyle="@style/DropDownListViewStyle"
+            android:popupBackground="#000"
+            android:windowSoftInputMode="stateHidden"
+            android:dropDownWidth="wrap_content"
+            android:selectAllOnFocus="true"
+            android:textCursorDrawable="@drawable/blackpipe"
+            android:completionThreshold="1"
+            android:inputType="textAutoComplete|textAutoCorrect|textFilter|text|textCapWords"
+            >
+            <requestFocus/>
+
+            </cityautocomplete.LiquorAutocompleteTextview>
+
+    </LinearLayout>
+
+
+</LinearLayout>

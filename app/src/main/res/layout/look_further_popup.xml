@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:id="@+id/sevenkm"
+        android:background="@drawable/sevenkm_press"
+        android:layout_gravity="center"/>
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:background="@drawable/fivekm_press"
+        android:id="@+id/fivekm"
+        android:layout_gravity="center"/>
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/twokm_press"
+        android:id="@+id/twokm"
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:baselineAligned="false"
+    android:layout_height="fill_parent"
+    android:weightSum="100"
+    android:orientation="vertical"
+    android:background="@drawable/wineandbeerbackground"
+    >
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:background="@drawable/headerbar"
+        android:layout_weight="18"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        >
+
+        <ImageView
+            android:id="@+id/textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/homescreenlogo">
+        </ImageView>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        android:weightSum="10">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="10">
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="7.5"
+            android:textSize="15sp"
+            android:background="#fff"
+            android:textColor="#000"
+            android:paddingLeft="20dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_height="wrap_content"
+            android:text="WINE AND BEER SHOPS"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="2.5"
+                android:textSize="15sp"
+                android:background="#fff"
+                android:textColor="#000"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:layout_height="wrap_content"
+                android:text="DISTANCE"/>
+
+            </LinearLayout>
+       <!-- <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="2">
+
+        </LinearLayout>-->
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:background="#f9e5bd"
+        android:orientation="vertical"
+        android:layout_weight="82">
+        <ListView
+            android:id="@+id/listViewwine"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:transcriptMode="disabled"
+            android:background="#f9e5bd">
+
+        </ListView>
+    </LinearLayout>
+
+   <!-- <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:baselineAligned="false"
+        android:layout_weight="16">
+
+
+      &lt;!&ndash;  <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="30"
+            android:layout_marginTop="2dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+            <ImageButton
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:id="@+id/deals"
+                android:layout_gravity="center"
+                android:background="@drawable/newdeals"/>
+        </FrameLayout>&ndash;&gt;
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="30"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            >
+
+            <ImageButton
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:id="@+id/lookfurther"
+                android:layout_gravity="center"
+                android:background="@drawable/radiu_twokm_press"/>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="2dp"
+            android:layout_gravity="center"
+            android:layout_weight="30">
+            <ImageButton
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:id="@+id/winebutton"
+                android:layout_gravity="center"
+                android:background="@drawable/open"/>
+
+
+        </FrameLayout>
+
+    </LinearLayout>-->
+
+
+</LinearLayout>

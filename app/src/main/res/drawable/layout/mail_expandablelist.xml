@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="100"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="10"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:background="@drawable/headerbar"
+        android:weightSum="10"
+        >
+
+
+        <ImageView
+            android:id="@+id/textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/applogo1">
+        </ImageView>
+      <!--  -->
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/apyhours"
+                    android:textColor="#000"
+                    android:layout_marginEnd="5dp"
+                    android:layout_toLeftOf="@+id/toggleButton1"
+                    android:text="Happy Hours"
+                    />
+                <!-- <ToggleButton
+                     android:id="@+id/switch1"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_alignParentEnd="true"
+                     android:layout_marginTop="5dp"
+                     android:layout_marginBottom="5dp"
+                     android:paddingEnd="10dp"
+                     android:background="@drawable/toggle_selector"
+                     android:checked="false"
+                     android:text=""
+                     android:textOff=""
+                     android:textOn="" />-->
+<!--
+                  <ToggleButton
+                      android:id="@+id/switch1"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_alignParentEnd="true"
+                      android:layout_marginTop="5dp"
+                      android:layout_marginBottom="5dp"
+                      android:paddingEnd="20dp"
+                      />-->
+              <!--  <Switch
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/switch1"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/bgtoggle"
+                    >
+
+                </Switch>
+-->
+                <Switch
+                    android:id="@+id/toggleButton1"
+                    android:layout_width="50dp"
+                    android:layout_height="15dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:checked="false"
+                    android:track="@drawable/switch_track_selector"
+                    android:thumb="@drawable/switch_thumb_selector"
+                    android:text=""
+                    android:textOff=""
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:textOn="" />
+            </RelativeLayout>
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/searchedbrand"
+        android:weightSum="100"
+        android:layout_weight="0.5"
+        android:paddingEnd="20dp"
+        android:orientation="vertical"
+        android:baselineAligned="true">
+        <!--<TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/suggest"
+
+            android:textSize="17sp"
+            android:textColor="#000"
+            />-->
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/xyz"
+        android:weightSum="100"
+        android:layout_weight="01"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:paddingStart="20dp"
+        android:baselineAligned="true">
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="40"
+            android:weightSum="2">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/suggest"
+                android:textSize="17sp"
+                android:layout_weight="2"
+                android:textColor="#000"
+               android:layout_gravity="bottom"
+                />
+-->
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+           android:layout_gravity="bottom"
+            android:layout_weight="20"
+
+            >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:background="@drawable/pinttabwhite"
+            android:layout_weight="20"
+            android:text="PINT"
+            android:gravity="center"
+            android:textSize="11sp"
+            android:textColor="#000"
+            android:id="@+id/button"
+            />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="07dp"
+            android:layout_weight="20">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:id="@+id/button2"
+            android:background="@drawable/bottletabwhite"
+            android:layout_weight="20"
+            android:textColor="#000"
+            android:text="BOTTLE"
+            android:textSize="11sp"
+            android:gravity="center"
+            />
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+
+            android:layout_marginTop="07dp"
+            android:layout_weight="20">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:id="@+id/button3"
+            android:textColor="#000"
+            android:background="@drawable/locationwhitetab"
+            android:layout_weight="18"
+            android:gravity="center"
+            android:textSize="11sp"
+            android:text="DISTANCE"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+                        <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:orientation="vertical"
+                        android:layout_weight="77"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="10dp">
+                            <ExpandableListView
+                                android:id="@+id/exp_list"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:transcriptMode="normal"
+                                android:divider="@null"
+                                android:background="@drawable/my_shape"
+                                android:groupIndicator="@null">
+                            </ExpandableListView>
+                        </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+       android:layout_marginTop="05dp"
+        android:layout_marginBottom="02dp"
+        android:layout_weight="10">
+        <ImageButton
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/lookfurther"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/lookfurtherpress"/>
+    </LinearLayout>
+
+
+</LinearLayout>

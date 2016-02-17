@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    >
+    <!--<View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#000000"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/view"
+
+       />-->
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:baselineAligned="false"
+        android:weightSum="100"
+
+
+        >
+        <!--  <View
+              android:layout_width="1dp"
+              android:layout_height="fill_parent"
+              android:background="#000000"
+              android:layout_alignParentLeft="true"
+              android:id="@+id/view2"
+
+             />-->
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="40"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/bottletabwhite">
+
+
+            <!--  <View
+                  android:layout_width="fill_parent"
+                  android:layout_height="20dp"
+                  android:background="#fff"
+                  android:layout_alignParentLeft="true"
+                  android:id="@+id/view4"
+                  android:visibility="invisible"
+
+                  />-->
+
+            <TextView
+                android:id="@+id/group_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:textColor="#000"
+                android:textStyle="bold"/>
+            <!--<LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/hh"
+                android:weightSum="100">
+                &lt;!&ndash; <ImageView
+                     android:layout_width="0dp"
+                     android:id="@+id/bmug"
+                     android:layout_height="wrap_content"
+                    android:layout_weight="05"
+                     android:background="@drawable/beermugiconz"/>&ndash;&gt;
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="100"
+                    android:layout_marginTop="02dp"
+                    android:textSize="9sp"
+                    android:textColor="#000"
+                    android:id="@+id/time"
+                    android:text="Happy Hours -11:00am-4:00pm"
+                    />
+                &lt;!&ndash;<TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="45"
+                    android:textSize="08sp"
+
+                    android:text=" "/>&ndash;&gt;
+
+            </LinearLayout>
+            <ImageView
+                android:id="@+id/discount"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:src="@drawable/newdiscount"/>-->
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="20"
+            android:id="@+id/minpricelayout"
+            android:background="#fff">
+            <TextView
+                android:id="@+id/minPrice"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:gravity="center"
+                android:layout_marginTop="17dp"
+                android:textColor="#000"/>
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="20"
+            android:id="@+id/bottlelayout"
+            android:background="#fff">
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:gravity="center"
+                android:layout_marginTop="17dp"
+                android:textColor="#000"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="20"
+            android:id="@+id/locationlayout">
+            <TextView
+                android:id="@+id/dist"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="17dp"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:textColor="#000"
+                />
+        </LinearLayout>
+        <!--<LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="06"
+            android:gravity="center"
+            android:id="@+id/directionlayout"
+            android:weightSum="1">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:id="@+id/direction"
+                android:background = "@null"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:paddingBottom="38dp"
+                android:src="@drawable/orangeloc"/>
+        </LinearLayout>-->
+        <!-- <View
+             android:layout_width="1dp"
+             android:layout_height="fill_parent"
+             android:background="#000000"
+             android:layout_alignParentLeft="true"
+             android:id="@+id/view1"
+           />-->
+    </LinearLayout>
+
+
+
+</LinearLayout>

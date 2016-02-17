@@ -1,0 +1,51 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorControlNormal">#ffffff</item>
+        <item name="colorControlActivated">@color/accent</item>
+        <item name="colorControlHighlight">@color/accent</item>
+        <item name="android:textViewStyle">@style/RobotoTextViewStyle</item>
+        <item name="android:autoCompleteTextViewStyle">@style/RobotoAutoCompleteTextViewStyle</item>
+        <item name="android:editTextStyle">@style/RobotoEditTextStyle</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListViewStyle</item>
+        </style>
+
+
+    <style name="dialog_animation">
+    <item name="android:windowEnterAnimation">@anim/in_animation</item>
+    <item name="android:windowExitAnimation">@anim/out_animation</item>
+    <item name="android:windowMinWidthMajor">100%</item>
+    <item name="android:windowMinWidthMinor">100%</item>
+    </style>
+
+    <style name="RobotoTextViewStyle" parent="android:Widget.TextView">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="RobotoAutoCompleteTextViewStyle" parent="android:Widget.AutoCompleteTextView">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="RobotoEditTextStyle" parent="android:Widget.EditText">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <color name="accent">#ffffff</color>
+
+    <style name="CustomProgressBar" parent="android:Widget.ProgressBar.Horizontal">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:minHeight">10dip</item>
+        <item name="android:maxHeight">20dip</item>
+    </style>
+
+
+    <style name="DropDownListViewStyle" parent="@android:style/Widget.DropDownItem">
+        <item name="android:dividerHeight">0.5dp</item>
+        <item name="android:textSize">@dimen/dropdowntextsize</item>
+        <item name="android:divider">@color/dropdown</item>
+    </style>
+    <style name="spinner_style" parent="@android:style/Widget.DropDownItem">
+        <item name="android:dividerHeight">0.5dp</item>
+        <item name="android:textSize">@dimen/dropdowntextsize</item>
+        <item name="android:divider">@color/dropdown</item>
+        <item name="android:scrollbarThumbVertical">@drawable/scrollbar_style</item>
+    </style>
+</resources>

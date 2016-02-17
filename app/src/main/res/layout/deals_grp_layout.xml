@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="-8dp"
+    android:background="#f9e5bd">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:baselineAligned="false"
+        android:id="@+id/top_layout"
+        android:weightSum="100">
+        <ImageView
+            android:id="@+id/arrowdown"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="bottom"
+            android:layout_marginRight="3dp"
+            android:src="@drawable/arrowdown"/>
+        <!--<FrameLayout
+            android:layout_width="10dp"
+            android:layout_weight="10"
+            android:background="#f9e5bd"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="-3dp"
+            android:layout_marginRight="-10dp"
+            android:id="@+id/frame">
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_gravity="top|left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/offerribben" />
+
+            <ImageView
+                android:id="@+id/arrowdown"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="3dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="bottom"
+                android:src="@drawable/arrowdown"/>
+
+
+
+        </FrameLayout>-->
+        <!-- <RelativeLayout
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginRight="-5dp"
+             android:id="@+id/relative_layout">
+             <ImageView
+                 android:id="@+id/imageView5"
+                 android:layout_gravity="top|left"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:src="@drawable/offerribben" />
+
+             <ImageView
+                 android:id="@+id/arrowdown"
+                 android:layout_width="20dp"
+                 android:layout_height="20dp"
+                 android:layout_marginStart="3dp"
+                 android:layout_marginLeft="3dp"
+                 android:layout_gravity="bottom"
+                 android:layout_marginBottom="10dp"
+                 android:layout_below="@+id/imageView5"
+                 android:src="@drawable/arrowdown"/>
+
+         </RelativeLayout>-->
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="80"
+            android:id="@+id/hh"
+            android:paddingTop="5dp"
+            android:background="#f9e5bd"
+            android:visibility="visible"
+            android:weightSum="100">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/grpnamelayout"
+                android:layout_marginEnd="4dp"
+                android:layout_marginRight="4dp"
+                android:orientation="vertical"
+                android:paddingBottom="5dp"
+                >
+
+                <TextView
+                    android:id="@+id/group_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:paddingTop="3dp"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:layout_weight="100"
+                    android:singleLine="true"/>
+
+                <TextView
+                    android:id="@+id/place_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="3dp"
+                    android:text="Vikaspuri"
+                    android:singleLine="true"
+                    android:textColor="#aa0"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_marginTop="02dp"
+                    android:textColor="#000"
+                    android:gravity="center"
+                    android:paddingBottom="2dp"
+                    android:text="A Bucket of 4 Kingfisher pints "
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_marginTop="02dp"
+                    android:textColor="#000"
+                    android:text="+2"
+                    />
+
+               <!-- <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="start"
+                    android:id="@+id/vodkalayout"
+                    >
+
+                    &lt;!&ndash;<ImageView
+                        android:id="@+id/bmug"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_weight="05"
+                        android:background="@drawable/yellobeermug"/>&ndash;&gt;
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_marginTop="02dp"
+                        android:textSize="9sp"
+                        android:textColor="#000"
+                        android:id="@+id/timetext"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:paddingBottom="2dp"
+                        android:text="Happy Hours"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_marginTop="02dp"
+                        android:textSize="9sp"
+                        android:textColor="#000"
+                        android:id="@+id/time"
+                        android:gravity="center|start"
+                        android:text="11am-4pm"
+                        />
+                </LinearLayout>
+-->
+
+                <!--  <ImageView
+                      android:id="@+id/discount"
+                      android:layout_width="100dp"
+                      android:layout_height="30dp"
+                      android:layout_marginStart="4dp"
+                      android:layout_marginLeft="4dp"
+                      android:src="@drawable/newdiscount"/>-->
+                <!--<ImageView
+                    android:id="@+id/arrowdown"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginLeft="4dp"
+                    android:src="@drawable/arrowdown"/>-->
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="3dp"
+                    android:background="#000"
+                    android:id="@+id/line"
+                    android:visibility="gone"
+                    />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="20"
+            android:id="@+id/minprice"
+            android:clickable="true"
+            android:background="#f9e5bd"
+            >
+
+            <TextView
+                android:id="@+id/botte"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:gravity="center"
+                android:textColor="#000"/>
+
+        </LinearLayout>
+
+
+
+       <!-- <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="25"
+            android:clickable="true"
+            android:background="#f9e5bd"
+            android:id="@+id/locationlayout">
+            <TextView
+                android:id="@+id/dist"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="7dp"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:textColor="#000"
+                />
+        </LinearLayout>-->
+
+        <!-- <LinearLayout
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_weight="06"
+             android:gravity="top"
+             android:id="@+id/directionlayout"
+             android:weightSum="1">
+
+             <ImageButton
+                 android:layout_width="wrap_content"
+                 android:layout_height="90dp"
+                 android:id="@+id/direction"
+                 android:background = "@null"
+                 android:adjustViewBounds="true"
+                 android:scaleType="fitCenter"
+                 android:layout_gravity="top"
+                 android:paddingBottom="38dp"
+                 android:src="@drawable/orangeloc"
+
+                 android:layout_weight="2.19" />
+         </LinearLayout>-->
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="3dp"
+        android:paddingTop="20dp"
+        android:background="@drawable/belowline"
+        android:id="@+id/belowline"
+        />
+</LinearLayout>

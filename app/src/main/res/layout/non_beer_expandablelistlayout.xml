@@ -1,0 +1,748 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:baselineAligned="false"
+    android:layout_height="fill_parent"
+    android:weightSum="100"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    >
+
+
+
+   <!-- <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="10"
+        android:paddingTop="10dp"
+        android:background="@drawable/headerbar"
+        android:paddingBottom="10dp"
+        >
+
+        <ImageView
+            android:id="@+id/textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/applogo2">
+        </ImageView>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            >
+
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/apyhours"
+            android:textColor="#000"
+            android:layout_marginEnd="5dp"
+            android:layout_toLeftOf="@+id/toggleButton1"
+            android:text="Happy Hours"
+            />
+            &lt;!&ndash; <ToggleButton
+                 android:id="@+id/switch1"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignParentEnd="true"
+                 android:layout_marginTop="5dp"
+                 android:layout_marginBottom="5dp"
+                 android:paddingEnd="10dp"
+                 android:background="@drawable/toggle_selector"
+                 android:checked="false"
+                 android:text=""
+                 android:textOff=""
+                 android:textOn="" />&ndash;&gt;
+
+            &lt;!&ndash;  <ToggleButton
+                  android:id="@+id/switch1"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:background="@drawable/happyhoursq"
+                  android:layout_alignParentEnd="true"
+                  android:layout_marginTop="5dp"
+                  android:layout_marginBottom="5dp"
+                  android:paddingEnd="20dp"
+                  android:thumb="@drawable/switch_bg"/>
+      &ndash;&gt;
+          &lt;!&ndash;    <Switch
+
+                  android:id="@+id/switch1"
+                  android:layout_alignParentEnd="true"
+                  android:layout_marginTop="5dp"
+                  android:layout_width="50dp"
+                  android:layout_height="20dp"
+                  android:layout_marginBottom="5dp"
+                  android:background="@drawable/bgtoggle"
+                  >
+
+              </Switch>&ndash;&gt;
+            <Switch
+                android:id="@+id/toggleButton1"
+                android:layout_width="50dp"
+                android:layout_height="15dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:checked="false"
+                android:track="@drawable/switch_track_selector"
+                android:thumb="@drawable/switch_thumb_selector"
+                android:text=""
+                android:textOff=""
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:textOn="" />
+
+        </RelativeLayout>
+    </LinearLayout>-->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="0"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:weightSum="10"
+        android:focusableInTouchMode="true"
+        >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="4.5"
+            android:layout_height="wrap_content"
+            android:background="@drawable/placebackground"
+            android:orientation="horizontal"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:weightSum="4">
+
+            <cityautocomplete.LiquorAutocompleteTextview
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:id="@+id/autoCompleteTextView"
+                android:textColor="#000"
+                android:singleLine="true"
+                android:hint="@string/like"
+                android:imeOptions="actionDone"
+                android:layout_marginStart="5dp"
+                android:layout_gravity="center"
+                android:dropDownListViewStyle="@style/DropDownListViewStyle"
+                android:popupBackground="#000"
+                android:windowSoftInputMode="stateHidden"
+                android:focusableInTouchMode="true"
+                android:dropDownHeight="wrap_content"
+                android:dropDownWidth="200dp"
+                android:background="@android:color/transparent"
+                android:selectAllOnFocus="true"
+                android:textCursorDrawable="@drawable/blackpipe"
+                android:completionThreshold="1"
+                android:layout_weight="4"
+                android:dropDownAnchor="@+id/autoCompleteTextView"
+                android:inputType="textAutoComplete|textAutoCorrect|textFilter|text|textCapWords"
+                >
+            </cityautocomplete.LiquorAutocompleteTextview>
+          <!--  <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/loc1"
+                android:background = "@null"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/searchbuttonicon"
+                android:paddingTop="2dp"
+
+                android:paddingBottom="2dp"
+                />-->
+        </LinearLayout>
+
+        <!-- <ImageView
+             android:id="@+id/textview"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:src="@drawable/applogo1">
+         </ImageView>-->
+        <!--  -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/placebackground"
+            android:orientation="horizontal"
+            android:layout_marginEnd="5dp"
+            android:layout_weight="5.5"
+            android:weightSum="4">
+            <cityautocomplete.PlaceAutoCompleteTextView
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:hint="@string/city"
+                android:id="@+id/atv_places"
+                android:windowSoftInputMode="adjustNothing"
+                android:textColor="#000"
+                android:singleLine="true"
+                android:dropDownListViewStyle="@style/DropDownListViewStyle"
+                android:imeOptions="actionDone"
+                android:paddingStart="5dp"
+                android:paddingLeft="5dp"
+                android:paddingEnd="5dp"
+                android:layout_gravity="center"
+                android:dropDownWidth="wrap_content"
+                android:layout_marginStart="5dp"
+                android:focusableInTouchMode="true"
+                android:selectAllOnFocus="true"
+                android:textCursorDrawable="@drawable/blackpipe"
+                android:completionThreshold="1"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="3"
+                android:inputType="textAutoComplete|textAutoCorrect|textFilter|text|textCapWords"
+                >
+            </cityautocomplete.PlaceAutoCompleteTextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background = "@drawable/searchbackground"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:text="Search"
+                android:layout_marginBottom="2dp"
+                android:layout_marginTop="2dp"
+                android:gravity="center"
+                android:textColor="#fff"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:paddingBottom="2dp"
+                android:layout_marginRight="3dp"
+                />
+        </LinearLayout>
+        <!-- <ImageView
+             android:id="@+id/textview"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:background="@drawable/deal"
+             android:layout_gravity="center_vertical"
+             android:layout_weight="1">
+         </ImageView>-->
+        <!-- <TextView
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_marginStart="5dp"
+             android:layout_marginTop="10dp"
+             android:id="@+id/apyhours"
+             android:gravity="center_horizontal"
+             android:textColor="#000"
+             android:background="@drawable/deal"
+             android:layout_marginEnd="5dp"
+             android:layout_weight="2"
+
+             />
+ -->
+        <!-- <RelativeLayout
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginEnd="10dp"
+             >
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_centerVertical="true"
+                 android:layout_marginStart="5dp"
+                 android:layout_marginTop="10dp"
+                 android:id="@+id/apyhours"
+                 android:textColor="#000"
+                 android:layout_marginEnd="5dp"
+                 android:layout_toLeftOf="@+id/toggleButton1"
+                 android:text="Happy Hours"
+                 />
+             &lt;!&ndash; <ToggleButton
+                  android:id="@+id/switch1"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_alignParentEnd="true"
+                  android:layout_marginTop="5dp"
+                  android:layout_marginBottom="5dp"
+                  android:paddingEnd="10dp"
+                  android:background="@drawable/toggle_selector"
+                  android:checked="false"
+                  android:text=""
+                  android:textOff=""
+                  android:textOn="" />&ndash;&gt;
+&lt;!&ndash;
+               <ToggleButton
+                   android:id="@+id/switch1"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_alignParentEnd="true"
+                   android:layout_marginTop="5dp"
+                   android:layout_marginBottom="5dp"
+                   android:paddingEnd="20dp"
+                   />&ndash;&gt;
+           &lt;!&ndash;  <Switch
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:id="@+id/switch1"
+                 android:layout_alignParentEnd="true"
+                 android:layout_marginTop="5dp"
+                 android:layout_marginBottom="5dp"
+                 android:background="@drawable/bgtoggle"
+                 >
+
+             </Switch>
+&ndash;&gt;
+             <Switch
+                 android:id="@+id/toggleButton1"
+                 android:layout_width="50dp"
+                 android:layout_height="15dp"
+                 android:layout_centerHorizontal="true"
+                 android:layout_centerVertical="true"
+                 android:checked="false"
+                 android:track="@drawable/switch_track_selector"
+                 android:thumb="@drawable/switch_thumb_selector"
+                 android:text=""
+                 android:textOff=""
+                 android:layout_alignParentEnd="true"
+                 android:layout_marginTop="5dp"
+                 android:layout_marginBottom="5dp"
+                 android:textOn="" />
+         </RelativeLayout>-->
+    </LinearLayout>
+
+
+    <!--<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="8"
+        android:weightSum="10"
+        android:focusableInTouchMode="true"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="#fff"
+            android:adjustViewBounds="true"
+            android:text="place"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="5dp"
+            android:gravity="start"
+            android:textSize="17sp"
+            android:paddingTop="6dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp"
+            android:textColor="#000"
+            android:id="@+id/place"
+            android:paddingLeft="5dp"
+            android:paddingStart="5dp"
+            android:inputType="textCapWords"
+            android:clickable="false"
+            android:layout_weight="9.5"
+            android:layout_gravity="center_vertical"
+            android:paddingBottom="2dp"
+            android:layout_marginRight="3dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/searchbuttonicon"
+            android:adjustViewBounds="true"
+            android:layout_marginBottom="2dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp"
+            android:id="@+id/search"
+            android:paddingBottom="2dp"
+
+            android:layout_marginRight="3dp"
+            />
+
+</LinearLayout>-->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="8"
+        android:layout_gravity="center"
+        android:gravity="start"
+        android:background="@drawable/curved_shape"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="2dp"
+        android:weightSum="10"
+        android:focusableInTouchMode="true"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:adjustViewBounds="true"
+            android:text="place"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:textSize="17sp"
+            android:paddingTop="6dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp"
+            android:textColor="#000"
+            android:id="@+id/place"
+            android:paddingLeft="5dp"
+            android:paddingStart="5dp"
+            android:inputType="textCapWords"
+            android:clickable="false"
+            android:layout_weight="9.5"
+            android:layout_gravity="center"
+            android:paddingBottom="2dp"
+            android:layout_marginRight="3dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/searchbuttonicon"
+            android:adjustViewBounds="true"
+            android:layout_marginBottom="2dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp"
+            android:id="@+id/search"
+            android:paddingBottom="2dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginEnd="5dp"
+            />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:id="@+id/apyhrs"
+        android:weightSum="100"
+        android:layout_weight="7"
+        android:orientation="horizontal"
+
+        >
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="99"
+            android:id="@+id/space"
+            android:orientation="horizontal">
+
+            <ToggleButton
+                android:id="@+id/toggleButton1"
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:checked="false"
+                android:background="@drawable/toggle_selector"
+                android:text=""
+                android:layout_gravity="center"
+                android:textOff=""
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="-2dp"
+                android:textOn="" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="5dp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="top"
+                android:paddingTop="6dp"
+                android:id="@+id/apyhourstext"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:layout_marginEnd="5dp"
+                android:layout_toLeftOf="@+id/toggleButton1"
+                android:text="HAPPY HOURS"
+                />
+
+
+            <!--<LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/my_shape"
+                android:orientation="horizontal"
+                android:weightSum="4">
+
+            <cityautocomplete.CustomAutoCompleteView1
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:hint="@string/like"
+                android:id="@+id/autoCompleteTextView"
+                android:textColor="#000"
+                android:singleLine="true"
+                android:imeOptions="actionDone"
+                android:layout_marginStart="5dp"
+                android:layout_gravity="center"
+                android:popupBackground="#000"
+                android:dropDownHeight="wrap_content"
+                android:dropDownWidth="wrap_content"
+                android:background="@android:color/transparent"
+                android:selectAllOnFocus="true"
+                android:textCursorDrawable="@drawable/blackpipe"
+                android:completionThreshold="1"
+                android:layout_weight="3.5"
+                android:dropDownAnchor="@+id/autoCompleteTextView"
+                android:inputType="textAutoComplete|textAutoCorrect|textFilter|text|textCapWords"
+                >
+            </cityautocomplete.CustomAutoCompleteView1>
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/loc1"
+                android:background = "@null"
+                android:layout_gravity="bottom"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/searchbuttonicon"
+                android:paddingEnd="10dp"
+                android:paddingTop="2dp"
+                android:paddingBottom="2dp"
+                />
+                </LinearLayout>-->
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/searchedbrand"
+        android:weightSum="100"
+        android:layout_weight="0.5"
+        android:paddingEnd="20dp"
+        android:orientation="vertical"
+        android:baselineAligned="true">
+       <!-- <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/suggest"
+            android:textSize="17sp"
+            android:textColor="#000"
+            />-->
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="20dp"
+            android:id="@+id/xyz"
+            android:weightSum="100"
+            android:layout_weight="2"
+            android:background="#fff"
+            android:baselineAligned="true"
+
+            >
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="50"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:id="@+id/pub"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="#000"
+                    android:text="PUB"
+                    />
+
+            </LinearLayout>
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+
+                android:layout_weight="25"
+               >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:id="@+id/button"
+                    android:background="@drawable/yellowtab"
+                    android:layout_weight="20"
+                    android:textColor="#000"
+                    android:text="30ml(₹)"
+                    android:gravity="center"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="25">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:id="@+id/button3"
+                    android:textColor="#000"
+                    android:layout_weight="18"
+                    android:gravity="center"
+                    android:text="DISTANCE"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+<!--
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="18">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:id="@+id/button"
+                android:background="@drawable/bottletabwhite"
+                android:layout_weight="18"
+               android:gravity="center"
+                android:text="30ml"
+                android:textColor="#000"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="26">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:id="@+id/button3"
+                android:background="@drawable/locationwhitetab"
+                android:layout_weight="38"
+                android:text="LOCATION"
+                android:textColor="#000"
+                android:gravity="center"/>
+        </LinearLayout>
+
+    </LinearLayout>
+-->
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="68">
+        <ExpandableListView
+            android:id="@+id/exp_list1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:groupIndicator="@null"
+            android:divider="@null"
+            android:scrollbarTrackVertical="@color/dropdown"
+            android:scrollbarSize="4sp"
+            android:scrollbarThumbVertical="@drawable/scrollbar"
+            android:transcriptMode="disabled">
+        </ExpandableListView>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/shadow"
+        android:background="@drawable/shadow1"/>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:baselineAligned="false"
+        android:layout_weight="15">
+
+<!--
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="30"
+            android:layout_marginTop="2dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+            <ImageButton
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:id="@+id/deals"
+                android:layout_gravity="center"
+                android:background="@drawable/dealsnearyou_press"/>
+        </FrameLayout>
+-->
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="30"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            >
+
+            <ImageButton
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:id="@+id/lookfurther"
+                android:layout_gravity="center"
+                android:background="@drawable/radiu_twokm_press"/>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="2dp"
+            android:layout_gravity="center"
+            android:layout_weight="30">
+            <ImageButton
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:id="@+id/winebutton"
+                android:layout_gravity="center"
+                android:background="@drawable/wineandbeershop_press"/>
+
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+
+    <!-- <LinearLayout
+         android:layout_width="fill_parent"
+         android:layout_height="0dp"
+         android:layout_marginTop="05dp"
+         android:layout_marginBottom="02dp"
+         android:layout_weight="8">
+         <ImageButton
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:id="@+id/lookfurther"
+             android:layout_marginStart="20dp"
+             android:layout_marginEnd="20dp"
+             android:background="@drawable/lookfurtherpress"/>
+     </LinearLayout>
+ -->
+
+</LinearLayout>
+

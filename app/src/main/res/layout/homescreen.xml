@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clickable="true"
+    android:focusableInTouchMode="true"
+    >
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/backgrnd"
+        android:scaleType="centerCrop"
+        android:id="@+id/back"/>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:clickable="true"
+        android:focusableInTouchMode="true"
+        android:weightSum="100">
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:gravity="top"
+            android:layout_weight="13">
+            <ImageButton
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/logo"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:background="@drawable/homescreenlogo"
+                />
+
+
+        </LinearLayout>
+  <!--  <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:gravity="top"
+        android:layout_weight="2">
+
+        </LinearLayout>-->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="14">
+
+            <!-- <ImageButton
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:id="@+id/timetodrink"
+             android:layout_marginLeft="40dp"
+             android:layout_marginRight="40dp"
+                 android:layout_gravity="center"
+             android:background="@drawable/timetodrink"
+             />-->
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="12dp"
+                android:textSize="25sp"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:text="Time to drink, Buddy!"/>
+
+        </LinearLayout>
+
+      <!--  <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:gravity="top"
+            android:layout_weight="1">
+
+        </LinearLayout>-->
+        <!--<LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:gravity="top"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="4">
+            <ImageView
+                android:id="@+id/textview1"
+                android:paddingBottom="3dp"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:src="@drawable/whatdouwant"
+                android:layout_gravity="bottom">
+            </ImageView>
+
+
+
+        </LinearLayout>
+-->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/curved_shape"
+            android:orientation="horizontal"
+            android:weightSum="4"
+            android:layout_weight="2.5">
+
+            <cityautocomplete.LiquorAutocompleteTextview
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/autoCompleteTextView"
+                android:textColor="#000"
+                android:singleLine="true"
+                android:textSize="13sp"
+                android:hint="@string/whatdouwant"
+                android:imeOptions="actionDone"
+                android:textFilterEnabled="true"
+                android:layout_marginRight="5dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="7dp"
+                android:layout_marginStart="7dp"
+                android:dropDownListViewStyle="@style/DropDownListViewStyle"
+                android:popupBackground="#000"
+                android:windowSoftInputMode="stateHidden"
+                android:dropDownWidth="wrap_content"
+                android:background="@android:color/transparent"
+                android:selectAllOnFocus="true"
+                android:textCursorDrawable="@drawable/blackpipe"
+                android:completionThreshold="1"
+                android:inputType="textAutoComplete|textAutoCorrect|textFilter|text|textCapWords"
+                >
+
+            </cityautocomplete.LiquorAutocompleteTextview>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:gravity="top"
+            android:layout_weight="7">
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="4"
+            android:id="@+id/autoCompleteTextViewlayout"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/curved_shape"
+            android:layout_weight="2.5">
+            <!--<ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/loc"
+                android:background = "@null"
+                android:layout_gravity="center_vertical"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/orangeloc"
+
+                android:paddingTop="2dp"
+                android:paddingBottom="2dp"
+                />-->
+
+            <cityautocomplete.PlaceAutoCompleteTextView
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:hint="@string/city"
+                android:id="@+id/atv_places"
+                android:textColor="#000"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"
+                android:singleLine="true"
+                android:dropDownListViewStyle="@style/DropDownListViewStyle"
+                android:ellipsize="end"
+                android:imeOptions="actionDone"
+                android:textSize="13sp"
+                android:layout_gravity="center"
+                android:dropDownWidth="wrap_content"
+                android:dropDownHeight="wrap_content"
+                android:background="@android:color/transparent"
+                android:selectAllOnFocus="true"
+                android:textCursorDrawable="@drawable/blackpipe"
+                android:layout_weight="3.5"
+                android:inputType="textAutoComplete|textAutoCorrect|textFilter|text|textCapWords"
+                >
+            </cityautocomplete.PlaceAutoCompleteTextView>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top"
+            android:layout_weight="2">
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:gravity="center"
+            android:layout_weight="25">
+            <ImageButton
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/search"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/getprices_press"
+                />
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="3"
+        >
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="31"
+            android:weightSum="100">
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="05dp"
+                android:layout_marginBottom="02dp"
+                android:layout_weight="50"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/getdeal"
+                    android:layout_gravity="center"
+                    android:background="@drawable/dealsnearyou_press"/>
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="05dp"
+                android:layout_marginBottom="02dp"
+                android:layout_weight="50"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/winebutton"
+                    android:layout_gravity="center"
+                    android:background="@drawable/wineandbeershop_press"/>
+            </FrameLayout>
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/wine2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:textColor="#000"
+        android:layout_marginStart="10dp"
+        android:paddingTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:paddingBottom="5dp"/>
+
+    <TextView
+        android:id="@+id/wine1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:textColor="#000"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"/>
+    <ImageButton
+        android:layout_width="10dp"
+        android:layout_height="15dp"
+        android:textColor="#000"
+       android:layout_marginTop="7dp"
+        android:paddingBottom="3dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/orangeloc"
+        android:id="@+id/location"/>
+</LinearLayout>
